@@ -1,0 +1,24 @@
+.statList {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.statItem {
+  margin-bottom: 5px;
+}
+
+.good {
+  color: green;
+}
+
+.neutral {
+  color: blue;
+}
+
+.bad {
+  color: red;
+}
