@@ -23,7 +23,7 @@ const FeedbackOptions = ({ options, handleIncrement }) => {
 };
 
 FeedbackOptions.propTypes = {
-  options: PropTypes.array.isRequired,
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
   handleIncrement: PropTypes.func.isRequired,
 };
 
